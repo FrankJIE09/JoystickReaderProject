@@ -31,11 +31,11 @@ pip install pyserial
 可以通过 `git` 克隆此项目：
 
 ```bash
-git clone https://github.com/yourusername/smc35-joystick-receiver.git
-cd smc35-joystick-receiver
+git clone https://github.com/FrankJIE09/JoystickReaderProject.git
+cd JoystickReaderProject
 ```
 
-或者直接下载 `main.py` 文件并放在本地目录中。
+或者直接下载 `joystick_reader.py` 文件并放在本地目录中。
 
 ## 使用方法
 
@@ -45,7 +45,7 @@ cd smc35-joystick-receiver
 
 ### 2. 修改配置
 
-打开 `main.py` 文件，找到如下部分：
+打开 `joystick_reader.py` 文件，找到如下部分：
 
 ```python
 PORT = "COM5"  # 根据实际连接更改
@@ -104,7 +104,7 @@ python joystick_reader.py
 
 ## 贡献
 
-欢迎贡献代码或报告问题。请通过 [GitHub Issues](https://github.com/FrankJ/smc35-joystick-receiver/issues) 提交问题报告，或通过 Pull Request 提交代码贡献。
+欢迎贡献代码或报告问题。请通过 [GitHub Issues](https://github.com/FrankJIE09/JoystickReaderProject/issues) 提交问题报告，或通过 Pull Request 提交代码贡献。
 
 ## License
 
